@@ -1,0 +1,16 @@
+res[MEM][0] = a[MEM][0] * b[MEM][0] + a[MEM][1] * b[MEM][4] + a[MEM][2] * b[MEM][8] + a[MEM][3] * b[MEM][12];
+res[MEM][1] = a[MEM][0] * b[MEM][1] + a[MEM][1] * b[MEM][5] + a[MEM][2] * b[MEM][9] + a[MEM][3] * b[MEM][13];
+res[MEM][2] = a[MEM][0] * b[MEM][2] + a[MEM][1] * b[MEM][6] + a[MEM][2] * b[MEM][10] + a[MEM][3] * b[MEM][14];
+res[MEM][3] = a[MEM][0] * b[MEM][3] + a[MEM][1] * b[MEM][7] + a[MEM][2] * b[MEM][11] + a[MEM][3] * b[MEM][15];
+res[MEM][4] = a[MEM][4] * b[MEM][0] + a[MEM][5] * b[MEM][4] + a[MEM][6] * b[MEM][8] + a[MEM][7] * b[MEM][12];
+res[MEM][5] = a[MEM][4] * b[MEM][1] + a[MEM][5] * b[MEM][5] + a[MEM][6] * b[MEM][9] + a[MEM][7] * b[MEM][13];
+res[MEM][6] = a[MEM][4] * b[MEM][2] + a[MEM][5] * b[MEM][6] + a[MEM][6] * b[MEM][10] + a[MEM][7] * b[MEM][14];
+res[MEM][7] = a[MEM][4] * b[MEM][3] + a[MEM][5] * b[MEM][7] + a[MEM][6] * b[MEM][11] + a[MEM][7] * b[MEM][15];
+res[MEM][8] = a[MEM][8] * b[MEM][0] + a[MEM][9] * b[MEM][4] + a[MEM][10] * b[MEM][8] + a[MEM][11] * b[MEM][12];
+res[MEM][9] = a[MEM][8] * b[MEM][1] + a[MEM][9] * b[MEM][5] + a[MEM][10] * b[MEM][9] + a[MEM][11] * b[MEM][13];
+res[MEM][10] = a[MEM][8] * b[MEM][2] + a[MEM][9] * b[MEM][6] + a[MEM][10] * b[MEM][10] + a[MEM][11] * b[MEM][14];
+res[MEM][11] = a[MEM][8] * b[MEM][3] + a[MEM][9] * b[MEM][7] + a[MEM][10] * b[MEM][11] + a[MEM][11] * b[MEM][15];
+res[MEM][12] = a[MEM][12] * b[MEM][0] + a[MEM][13] * b[MEM][4] + a[MEM][14] * b[MEM][8] + a[MEM][15] * b[MEM][12];
+res[MEM][13] = a[MEM][12] * b[MEM][1] + a[MEM][13] * b[MEM][5] + a[MEM][14] * b[MEM][9] + a[MEM][15] * b[MEM][13];
+res[MEM][14] = a[MEM][12] * b[MEM][2] + a[MEM][13] * b[MEM][6] + a[MEM][14] * b[MEM][10] + a[MEM][15] * b[MEM][14];
+res[MEM][15] = a[MEM][12] * b[MEM][3] + a[MEM][13] * b[MEM][7] + a[MEM][14] * b[MEM][11] + a[MEM][15] * b[MEM][15];
